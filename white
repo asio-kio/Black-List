@@ -11,9 +11,7 @@ pl-bolts-doc-images.s3.us-east-2.amazonaws.com
 ||ngrok-free.dev^
 
 #SAFE
-
 ||aam.sryze.cc^
-||abdullahalmasudbd.com^
 ||azik.sryze.cc^
 ||dev3masud.me^
 ||drmasud.tech^
@@ -21,3 +19,6 @@ pl-bolts-doc-images.s3.us-east-2.amazonaws.com
 ||oxu.indevs.in^
 ||pxo.indevs.in^
 ||abdullahmasud.com^
+
+#DNS
+family.adguard-dns.com
