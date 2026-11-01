@@ -34,7 +34,7 @@ This format is compatible with tools such as:
 4. Use `FreeFire` only if you specifically want to block or monitor Free Fire-related traffic.
 
 ## Notes
-
+- This repo is use for personal use.
 - This repository is intended for personal and self-hosted filtering.
 - Some entries may intentionally block websites, services, or content categories that are not suitable for all users.
 - If you are using this on a shared network, family network, or production environment, review the rules carefully before deploying.
