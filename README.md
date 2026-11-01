@@ -1,16 +1,20 @@
 # Black-List
 
-A curated personal domain blocklist for filtering unwanted websites, trackers, and content categories. This repository stores plain-text domain rules in a format commonly used by AdGuard-style filtering setups.
+A curated personal domain blocklist designed for filtering unwanted websites, trackers, and specific content categories. This repository contains plain-text domain rules in an AdGuard-style format and is intended for personal or self-hosted filtering setups.
 
-## What is in this repo?
+## Overview
 
-The repository contains a few small blocklist files:
+Black-List is a lightweight repository of domain-based filtering rules for use with tools such as AdGuard Home, uBlock Origin, and other DNS or network filtering solutions that support AdGuard-style syntax. The project is structured to keep blocklists easy to review, customize, and deploy.
 
-- `black` — a main blacklist containing domains for adult content, file-hosting services, social media, and other categories
-- `white` — a whitelist / allowlist of safe or trusted domains
-- `FreeFire` — a focused list of Free Fire / Garena related domains
+## Repository contents
 
-## Example format
+This repository currently includes the following rule files:
+
+- `black` — main blacklist containing domains associated with adult content, file-hosting services, social media, and other categories
+- `white` — allowlist of trusted or safe domains used to exempt known-good services when supported by your filtering tool
+- `FreeFire` — focused list for Free Fire / Garena-related domains
+
+## Rule format
 
 The files use AdGuard-style domain rules such as:
 
@@ -19,40 +23,43 @@ The files use AdGuard-style domain rules such as:
 example.com
 ```
 
-This format is compatible with tools such as:
+This syntax is commonly supported by:
 
 - AdGuard Home
 - AdGuard for Android / iOS
 - uBlock Origin custom filters
-- DNS or network filtering systems that support AdGuard-style rules
+- DNS or network filtering systems compatible with AdGuard-style rules
 
 ## Recommended usage
 
-1. Review each file before enabling it in a live filtering setup.
-2. Add the desired file to your AdGuard or DNS filter list.
-3. Use `white` as an allowlist/exception list when your setup supports it.
+1. Review each list before enabling it in a live filtering environment.
+2. Import the desired file into your AdGuard, DNS, or network filter.
+3. Use the `white` file as an exception list when your setup supports allowlisting.
 4. Use `FreeFire` only if you specifically want to block or monitor Free Fire-related traffic.
+5. Regularly update and review the rules to ensure they match your intended filtering goals.
 
-## Notes
-- This repo is use for personal use.
-- This repository is intended for personal and self-hosted filtering.
-- Some entries may intentionally block websites, services, or content categories that are not suitable for all users.
-- If you are using this on a shared network, family network, or production environment, review the rules carefully before deploying.
+## Important notes
 
-## Repository layout
+- This repository is intended for personal and self-hosted use.
+- Some entries deliberately block websites, services, or content categories that may not be suitable for all users.
+- If you are using this list on a shared network, family network, or production environment, review the rules carefully before deployment.
+- The repository is provided for informational and filtering use and should be applied only in compliance with local laws and platform policies.
+
+## Repository structure
 
 ```text
 Black-List/
 ├── black
 ├── white
 ├── FreeFire
-└── README.md
+├── README.md
+└── LICENSE (if added in the future)
 ```
 
 ## Disclaimer
 
-This project is a community-maintained list and is provided as-is for filtering use cases. Always verify the list contents before applying it in a production or shared environment.
+This project is provided as-is for personal filtering use. Always verify the contents of any blocklist before applying it in a production, shared, or family environment.
 
 ## License
 
-This repository does not currently declare a license. Please use it responsibly and only in compliance with local laws and platform policies.
+This repository does not currently declare a license. Please use it responsibly and only in compliance with applicable laws, policies, and service terms.
