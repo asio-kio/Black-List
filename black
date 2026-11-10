@@ -2,6 +2,7 @@
 ||diskwala.com^
 
 #Terabox
+/^https?:\/\/[^\/?#]*tera/
 ||1024tera.com^
 ||1024terabox.com^
 ||1024teradl.com^
